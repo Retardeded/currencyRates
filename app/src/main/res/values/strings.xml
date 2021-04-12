@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PiotrKurek_wt_14_00</string>
+    <string name="currency_today_rate">Dzisiejszy kurs waluty: %1$f</string>
+    <string name="currency_yesterday_rate">Wczorajszy kurs waluty: %1$f</string>
+    <string name="currency_weekly_rate">Kurs waluty z ostatnich 7 dni</string>
+    <string name="currency_monthly_rate">Kurs waluty z ostatnich 30 dni</string>
+    <string name="activity_rates">Kursy walut</string>
+    <string name="activity_exchange">Przelicznik walut</string>
+    <string name="activity_gold">Kurs złota</string>
+    <string name="current_rates">Akutalne kursy walut</string>
+    <string name="currency_fetching_error">Pobieranie waluty nie powiodło się</string>
+    <string name="exchange_top_label">Wartość w PLN</string>
+    <string name="exchange_bottom_label">Wartość w danej walucie</string>
+    <string name="gold_current_rate">Dzisiejszy kurs złota (cena za 1 gram)</string>
+    <string name="gold_monthly_rate">Miesięczny kurs złota (cena za 1 gram)</string>
+</resources>

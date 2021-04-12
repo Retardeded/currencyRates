@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:layout_marginBottom="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startCurrencyRatesActivity"
+            android:text="@string/activity_rates" />
+
+        <Button
+            android:layout_marginBottom="30sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startExchangeActivity"
+            android:text="@string/activity_exchange" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startGoldActivity"
+            android:text="@string/activity_gold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
