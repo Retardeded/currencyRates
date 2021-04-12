@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+
+//Piotr Kurek
+//Jest raczej wszystko ale nie jakoś bardzo dobrze, np. strzałki są w góre i w dół, ale kolor się coś nie wyświetla
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
